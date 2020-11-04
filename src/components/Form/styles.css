@@ -1,0 +1,36 @@
+.form > .container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.form input[type="text"] {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input.invalid[type="text"] {
+  border-color: red;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.input-wrapper input {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.input-wrapper input:last-child {
+  display: flex;
+  margin-right: 0;
+}
